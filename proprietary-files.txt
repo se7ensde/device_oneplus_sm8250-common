@@ -1212,7 +1212,8 @@ vendor/lib64/libwvhidl.so
 vendor/bin/cnss-daemon
 
 # Telephony
-etc/permissions/privapp-permissions-qti.xml etc/sysconfig/qti_whitelist.xml 
+etc/permissions/privapp-permissions-qti.xml
+etc/sysconfig/qti_whitelist.xml 
 -framework/qcnvitems.jar 
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk 
 system_ext/etc/permissions/qcrilhook.xml 
