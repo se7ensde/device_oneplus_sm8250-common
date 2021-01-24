@@ -1211,16 +1211,8 @@ vendor/lib64/libwvhidl.so
 # WiFi
 vendor/bin/cnss-daemon
 
-# Telephony
-etc/permissions/privapp-permissions-qti.xml etc/sysconfig/qti_whitelist.xml 
--framework/qcnvitems.jar 
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk 
-system_ext/etc/permissions/qcrilhook.xml 
-system_ext/etc/permissions/qti_libpermissions.xml 
-system_ext/etc/permissions/qti_permissions.xml 
-system_ext/etc/permissions/telephonyservice.xml 
-system_ext/framework/qcrilhook.jar
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+# Telephony (qti-telephony-common) - from DRG - QKQ1.190828.002
+product/framework/qti-telephony-common.jar|b4d187700f279cdbd40e74b4c3be4504f10d8b29
 
 # WiFi Display
 -framework/WfdCommon.jar
